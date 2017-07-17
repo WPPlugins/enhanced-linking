@@ -1,0 +1,148 @@
+/*
+ * Awesome CSS
+**/
+
+span.enhanced-links-howto {
+	float: left;
+	line-height: 21px;
+	margin: 0 10px;
+}
+
+ul#enhanced-links-nav {
+	margin: 0 0 10px 0;
+	padding: 0;
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	list-style: none;
+}
+
+ul#enhanced-links-nav li {
+	margin: 0;
+	padding: 0;
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	margin-right: 5px;
+	clear: none;
+	background: transparent;
+	border: 0;
+}
+
+ul#enhanced-links-nav li:hover {
+	background: transparent;
+}
+
+ul#enhanced-links-nav li a {
+	font: 12px 'Lucida Grande','Helvetica Neue', Helvetica, Arial;
+	display: block;
+	color: #222;
+	text-decoration: none;
+	padding: 2px 8px;
+	background: #fff;
+	border-radius: 14px;
+	-webkit-box-shadow: inset 0 0 5px #ccc;
+	-moz-box-shadow: inset 0 0 5px #ccc;
+	box-shadow: inset 0 0 5px #ccc;
+	border: 1px solid #ccc;
+	-webkit-transition: all 0.1s linear;
+}
+
+ul#enhanced-links-nav li a:hover {
+	border-color: #aaa;
+}
+
+ul#enhanced-links-nav li a:active, ul#enhanced-links-nav li a.active:active {
+	border-color: #222;
+}
+
+ul#enhanced-links-nav li a.active {
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+	border: 1px solid #666;
+	color: #fff;
+	background: #737373;
+	text-shadow: 0 1px #000;
+}
+
+ul#enhanced-links-nav li a.active:hover {
+	-webkit-box-shadow: inset 0 0 4px #fff;
+	-moz-box-shadow: inset 0 0 4px #fff;
+	box-shadow: inset 0 0 4px #fff;	
+}
+
+#zemwp-panel .item-external, #websearch-panel .item-external {
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	overflow:hidden;
+	width: 24px;
+	height: 16px;
+	background: transparent url(icon-link.png) 50% 50% no-repeat;
+}
+
+#zemwp-panel .item-info, #websearch-panel .item-info {
+	display:block;
+	float:right;
+}
+
+#websearch-panel .link-search-wrapper {
+	background: url(bing-logo.png?1) 100% 80% no-repeat;
+}
+
+#zemwp-panel .link-search-wrapper {
+	background: url(zemanta-logo.png?1) 100% 60% no-repeat;
+}
+
+div#wpwrap div#wp-link-wrap { height: 500px; }
+#wp-link-wrap #wp-link .query-results { position: relative; top: auto; left: auto; right: auto; bottom: auto; height: 270px; }
+
+#wp-link #search-panel .link-search-wrapper input,
+#wp-link #zemwp-panel .link-search-wrapper input,
+#wp-link #websearch-panel .link-search-wrapper input { width: 280px; }
+#wp-link-wrap #wp-link #wp-link-search-toggle { display: none; }
+
+#wp-link #zemwp-panel .link-search-wrapper span,
+#wp-link #zemwp-panel .link-search-wrapper input,
+#wp-link #websearch-panel .link-search-wrapper span,
+#wp-link #websearch-panel .link-search-wrapper input,
+#wp-link #search-panel .link-search-wrapper span,
+#wp-link #search-panel .link-search-wrapper input {
+	float:none;
+}
+
+#wp-link  #zemwp-panel .link-search-wrapper img.waiting,
+#wp-link #websearch-panel .link-search-wrapper img.waiting,
+#wp-link #search-panel .link-search-wrapper img.waiting {
+	display: -moz-inline-stack;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align:top;
+	float: none;
+	display:none;
+}
+
+#wp-link #zemwp-panel .item-title,
+#wp-link #websearch-panel .item-title  {
+	-moz-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: top;
+	display:block;
+	width:auto;
+	margin-right:100px;
+}
+
+#zemwp-panel ul li, #websearch-panel ul li {
+	overflow:hidden;
+}
